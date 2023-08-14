@@ -1,0 +1,16 @@
+.card {
+    width: 307px; height: 288px;
+}
+
+.card:hover{
+    transition: 0.3s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.card .card-button{
+    color: #fff !important;
+    background-color: #FF5722 !important;
+    border: none !important;
+ 
+}

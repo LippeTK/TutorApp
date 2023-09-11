@@ -1,19 +1,20 @@
 import styles from "./navbar.css";
-import Image from 'next/image'
+import Image from "next/image";
+import Link from "next/link";
 
 export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container">
         <div>
-          <a href="index.html" className="navbar-brand pe-0 me-0">
+        <Link href="/"className="navbar-brand pe-0 me-0">
             <Image
               src="/img/logo.png"
               className={styles.logo}
               width="200"
               height="80"
             />
-          </a>
+          </Link>
         </div>
         {/* botao collapse */}
         <button
@@ -29,19 +30,19 @@ export default function NavBar() {
         <div className="collapse navbar-collapse" id="navbarContent">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
-              <a className="nav-link ms-0 ps-0" href="index.html">
+            <Link href="/" className="nav-link">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item ms-5">
-              <a className="nav-link" href="meusCursos.html">
+              <Link href="/meusCursos" className="nav-link">
                 Meus cursos
-              </a>
+              </Link>
             </li>
             <li className="nav-item ms-5">
-              <a className="nav-link" href="perfil.html">
+              <Link href="/perfil" className="nav-link">
                 Perfil
-              </a>
+              </Link>
             </li>
           </ul>
           <div className="d-flex ms-auto ps-5">

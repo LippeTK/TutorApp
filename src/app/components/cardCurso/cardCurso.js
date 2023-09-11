@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./cardCurso.css";
 import Image from 'next/image'
 
@@ -11,9 +12,9 @@ export default function CardCurso(props) {
         <Image src="/img/codigo.jpg" className="card-img-top" width={300} height={170} />
         <h5 className="card-title mb-2 pt-2">{props.texto}</h5>
         <p className="card-text mb-0"></p>
-        <a href="curso.html" className="btn card-button mb-0">
+        <Link href="/curso" className="btn card-button mb-0">
           Acessar
-        </a>
+        </Link>
       </div>
     </div>
   );

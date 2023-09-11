@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
 .body{
   display: flex;
   flex-direction: column;
+  background-color: red;
+  font-family: 'Montserrat', sans-serif;
+
 }
 .footer{
   flex-shrink: 0;

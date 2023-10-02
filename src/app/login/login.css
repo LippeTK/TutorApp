@@ -1,0 +1,13 @@
+.formLogin{
+    width: 35%;
+    max-height: 100%;
+    border-radius: 10px;
+    background-color: #455A66;
+    color: #fff;
+   
+}
+
+.linkCadastro{
+    color: #fff;
+    font-size: 0.9em;
+}

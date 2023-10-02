@@ -24,20 +24,20 @@ export default function Perfil() {
 				<div className='col-12 col-md-5'>
 					<form>
 							<div className='pt-1 pb-1'>
-								<label for="nome" className='pb-2'>Nome:</label>
+								<label htmlFor="nome" className='pb-2'>Nome:</label>
 								<input className='form-control form-control-lg' type="text" name="nome" id="nome"/>
 							</div>
 							<div className='pt-1 pb-1'>
-								<label for="email" className='pb-2'>E-mail:</label>
+								<label htmlFor="email" className='pb-2'>E-mail:</label>
 								<input className='form-control form-control-lg'  type="text" name="email" id="email"/>
 							</div>
 							<div className='pt-1 pb-1'>
-								<label for="password" className='pb-2'>Senha:</label>
+								<label htmlFor="password" className='pb-2'>Senha:</label>
 								<input className='form-control form-control-lg' type="password" name="password" id="senha"/>
 							</div>
 							<div className='pt-3'>
-								<a href="" className='btn btn-outline me-1' >Editar</a>
-								<a href="" className='btn' >Salvar alterações</a>
+								<button className='btn btn-outline me-1' >Editar</button>
+								<button  className='btn' >Salvar alterações</button>
 							</div>
 					</form>
 				</div>

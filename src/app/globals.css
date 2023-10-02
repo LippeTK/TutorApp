@@ -86,17 +86,25 @@ body {
   overflow-x: hidden;
   height: 100%;
   overflow-x: visible;
-}
-
-body{
   display: flex;
   flex-direction: column;
+
 }
+.btn{
+  color: #fff !important;
+  background-color: #FF5722 !important;
+}
+
 footer{
   flex-shrink: 0;
 }
 main{
   flex: 1 0 auto;
+}
+
+input:focus,
+textarea:focus{
+    outline: none;
 }
 
 /* body {
